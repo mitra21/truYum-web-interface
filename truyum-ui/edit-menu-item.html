@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit-Menu-Item</title>
+    <link rel="stylesheet" type="text/css" href="style/style.css">
+    <script src="js/script.js"></script>
+</head>
+<body>
+    <header>
+        <span id="header1">truYum</span>
+        <img id="logo" name="restaurant" src="images/logo.jpg">
+        <a id="header2" href="menu-item-list-admin.html">Menu</a>
+    </header>
+    <section id="element">
+        <article id="table-title">Edit Menu Item</article><br>
+
+        <form name="myform" id="form" action="edit-menu-item-status.html" onsubmit="return validateForm();">
+            <table>
+                <tr>
+                    <th id="edit-name-id">Name</th>
+                </tr>
+                <tr>
+                    <td id="name-form-id"><input type="text" name="title" id="title" size="100"/></td>
+                </tr>
+                <tr>
+                    <th class="data-form">Price(Rs.)</th>
+                    <th class="data-form">Active</th>
+                    <th class="data-form">Date of Launch</th>
+                    <th class="data-form">Category</th>
+                </tr>
+                <tr>
+                    <td class="data-form"><input type="text" name="price" id="price" size="8"/></td>
+                    <td class="data-form"><input type="radio" name="inStock" id="yes" value="Yes"/>Yes
+                    <input type="radio" name="inStock" id="no" value="No"/>No</td>
+                    <td class="data-form"><input type="text" name="dateOfLaunch" id="dateOfLaunch" size="15"/></td>
+                    <td class="data-form"><select name="category" id="category-type" required>
+                        <option id="main" value="Main-course">Main Course</option>
+                        <option id="start" value="Starters">Starters</option>
+                        <option id="des" value="Dessert">Dessert</option>
+                        <option id="dri" value="Drink">Drink</option>
+                    </select></td>
+                </tr>
+                <tr>
+                    <td class="data-form"><input id="checkbox" type="checkbox" id="freeDelivery" name="freeDelivery">Free Delivery</td>
+                </tr>
+                <tr>
+                    <td><input id="button" type="submit" name="submit" value="Save"></td>
+                </tr>
+            </table>
+        </form>
+    </section>
+    <footer>
+        <article id="footer">Copyright &copy;2019</article>
+    </footer>
+</body>
+</html>

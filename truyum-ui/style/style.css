@@ -1,0 +1,118 @@
+header{
+    height: 50px;
+    background-color: rgb(129, 129, 230);
+}
+#logo{
+    height: 35px;
+    width: 30px;
+    padding-left: 20px;
+    margin-top: 5px;
+}
+#header1{
+    text-align: left;
+    margin-left: 40px;
+    color: white;
+    font-size:2em;
+}
+#header2{
+    padding-top: 10px;
+    float: right;
+    margin-right: 40px;
+    color: white;
+}
+#header3{
+    padding-top: 10px;
+    float: right;
+    margin-right: 40px;
+    color: white;
+}
+#element{
+    height: 500px;
+    border: 1px solid;
+}
+#table-title{
+    margin-left: 160px;
+    margin-top: 50px;
+    font-size: 2em;
+}
+#table{
+    margin-left: 5px;
+    margin-top: 42px;
+}
+.table-heading-1{
+    width: 350px;    
+}
+.table-heading{
+    width: 120px;
+}
+.name1{
+    float: left;
+    margin-left: 155px;
+}
+td{
+    text-align: center;
+}
+#heading{
+    margin-left: 160px;
+    margin-top: 50px;
+    font-size: 2em;
+}
+#form{
+    margin-left:160px ;
+}
+#active-id{
+    margin-left: 30px;
+}
+#date-id{
+    margin-left: 30px;
+}
+#category{
+    margin-left: 20px;
+}
+#checkbox{
+    width: 20px;
+    height: 20px;
+}
+#button {
+    background-color: #4c5baf; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 50px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin-top: 10px;
+    float: left;
+}
+#success-id{
+    margin-left: 160px;
+    font-size: 1.3em;
+    font-weight: bold;
+    color:rgb(3, 187, 3);
+}
+#cart-success-id{
+    text-align: center;
+    font-size: 1.3em;
+    font-weight: bold;
+    color:rgb(3, 187, 3);
+}
+#nocart-id{
+    font-weight: bold;
+    margin-left: 160px;
+    margin-top: 20px;
+    font-size: 1.3em;
+}
+#edit-name-id{
+    text-align: left;
+}
+.data-form{
+    text-align: left;
+    display: inline-block;
+    width:160px;
+    margin-right: 1.1em;
+}
+#footer{
+    background-color: rgb(180, 170, 180);
+    height: 40px;
+    padding-top: 10px;
+}
